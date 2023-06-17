@@ -2,10 +2,6 @@ const MAX_GRID_NUM = 100;
 const container = document.querySelector("#container");
 let lightness = 100;
 
-function genColor(){
-    
-}
-
 function paintColor(e){
     if (lightness > 0) lightness -= 2;
     const hue = Math.floor(Math.random()*1000)%360; 

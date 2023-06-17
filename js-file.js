@@ -1,4 +1,4 @@
-const MAX_GRID_NUM = 50;
+const MAX_GRID_NUM = 100;
 const container = document.querySelector("#container");
 let lightness = 100;
 
@@ -22,7 +22,7 @@ function addGridContainer(){
 }
 
 function addNewGrid(gridNum){
-    brightness = 1000;
+    lightness = 100;
     container.removeChild(container.lastChild);
     const gridContainer = addGridContainer();
     container.style["border"] = "0px";

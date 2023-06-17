@@ -1,0 +1,24 @@
+#container{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+#grid-num-button{
+    align-self: center;
+    flex: 0;
+}
+#grid-container{
+    width: 650x;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+}
+.row{
+    flex: 1;
+    display: flex;
+}
+.column{
+    flex: 1;
+    border: 1px solid gray;
+}
